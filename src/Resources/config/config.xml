@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Minimal configuration</title>
+        <title lang="de-DE">Minimal configuration</title>
+
+        <input-field type="bool">
+            <name>showInStorefront</name>
+            <label>Show in Storefront</label>
+            <label lang="de-DE">Show in Storefront</label>
+        </input-field>
+    </card>
+</config>

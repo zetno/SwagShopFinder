@@ -1,0 +1,12 @@
+<div class="col-md4">
+	<b>{{ "swag_shopfinder.footerTitle"|trans }}</b>
+	<br>
+	<ul>
+		{% for shop in swag_shopfinder.elements %}
+			<li>{{shop.name}} - {{ shop.country.name }}</li>
+		{% endfor %}
+	</ul>
+
+	<hr>
+	{{dump(swag_shopfinder)}}
+</div>

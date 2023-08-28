@@ -1,0 +1,18 @@
+{
+  "name": "creativect/shopfinder",
+  "description": "CCT ShopFinder",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagShopFinder\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagShopFinder\\SwagShopFinder",
+    "label": {
+      "de-DE": "CCT ShopFinder",
+      "en-GB": "CCT ShopFinder"
+    }
+  }
+}
